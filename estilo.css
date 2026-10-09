@@ -55,6 +55,16 @@ nav a {
   }
 }
 
+.oscuro {
+  background-color: #111827;
+  color: white;
+}
+
+.oscuro .tarjeta {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
 .productos-lista {
   display: flex;
   gap: 20px;
