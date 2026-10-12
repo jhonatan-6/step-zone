@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Step Zone Tienda de Tenis</title>
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,11 +20,11 @@
       </ul>
     </nav>
 
-    <button id="btn-tema">Modo oscuro</button>
+    <button type="button" id="btn-tema">Modo oscuro</button>
   </header>
 
   <main>
-    <section id="inicio">
+    <section id="inicio" class="seccion">
       <h1>Encuentra tus tenis, encuentra tu estilo</h1>
       <p>
         En Step Zone encontrarás tenis deportivos y casuales para diferentes
@@ -32,7 +32,7 @@
       </p>
     </section>
 
-    <section id="productos">
+    <section id="productos" class="seccion">
       <h2>Qué ofrecemos</h2>
       <div class="productos-lista">
         <article class="tarjeta">
@@ -65,11 +65,29 @@
       </div>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="seccion">
       <h2>Dónde encontrarnos</h2>
       <p>Dirección: Av. las americas,</p>
       <p>Horario: de Lunes a sabado de 8 am a 20 pm</p>
-      <p>Contacto: Jhanatan Pastor Quispe Samo</p>
+      <p>Contacto: Jhonatan Pastor Quispe Samo</p>
+
+      <h2>Formulario de contacto</h2>
+      <form>
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="campo">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+        </div>
+        <button type="button">Enviar mensaje</button>
+      </form>
+
     </section>
   </main>
 
@@ -78,7 +96,7 @@
   </footer>
 
   <script src="script.js"></script>
-  
+
 </body>
 
 </html>
