@@ -110,7 +110,7 @@ form button,
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .header {
     flex-direction: column;
     padding: 20px;
@@ -124,8 +124,13 @@ form button,
   }
 
   main {
-    padding: 20px;
+    padding: 16px;
   }
+
+  .seccion {
+    padding: 18px;
+  }
+
   .productos-listas{
     flex-direction: column;
   }
