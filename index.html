@@ -72,21 +72,30 @@
       <p>Contacto: Jhonatan Pastor Quispe Samo</p>
 
       <h2>Formulario de contacto</h2>
-      <form>
+
+      <form id="form-contacto" novalidate>
+
         <div class="campo">
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre">
+          <input type="text" id="nombre" name="nombre" required>
         </div>
+
         <div class="campo">
           <label for="correo">Correo electrónico:</label>
           <input type="email" id="correo" name="correo" required>
         </div>
+
         <div class="campo">
           <label for="mensaje">Mensaje:</label>
           <textarea id="mensaje" name="mensaje" rows="5"></textarea>
         </div>
-        <button type="button">Enviar mensaje</button>
+
+        <button type="submit">Enviar mensaje</button>
+
       </form>
+
+      <p id="respuesta-formulario" class="oculto"></p>
+
 
     </section>
   </main>

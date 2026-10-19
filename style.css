@@ -134,6 +134,7 @@ form button,
   .productos-listas{
     flex-direction: column;
   }
+
 }
 
 .oscuro {
@@ -158,4 +159,21 @@ form button,
   border-color: #6b7280;
 }
 
+#respuesta-formulario {
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.error {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border: 1px solid #b91c1c;
+}
+
+.exito {
+  color: #166534;
+  background-color: #dcfce7;
+  border: 1px solid #166534;
+}
 
